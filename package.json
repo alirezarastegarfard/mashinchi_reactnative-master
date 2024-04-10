@@ -1,0 +1,64 @@
+{
+  "name": "MashinChi",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.5.0",
+    "@react-native-community/netinfo": "^3.2.1",
+    "lottie-react-native": "^2.5.11",
+    "react": "16.8.6",
+    "react-native": "0.59.9",
+    "react-native-audio": "^4.3.0",
+    "react-native-crypto-js": "^1.0.0",
+    "react-native-device-info": "^2.1.1",
+    "react-native-exit-app": "^1.0.0",
+    "react-native-extended-stylesheet": "^0.11.1",
+    "react-native-fast-image": "^6.0.3",
+    "react-native-fetch-blob": "^0.10.8",
+    "react-native-file-selector": "0.0.6",
+    "react-native-floating-action": "^1.14.2",
+    "react-native-fs": "^2.13.3",
+    "react-native-get-location": "^1.1.2",
+    "react-native-image-crop-picker": "^0.22.0",
+    "react-native-keyboard-manager": "^4.0.13-10",
+    "react-native-maps": "^0.23.0",
+    "react-native-orientation-locker": "^1.1.4",
+    "react-native-page-control": "^1.1.1",
+    "react-native-progress-bar-animated": "^1.0.6",
+    "react-native-pushe": "^1.6.3",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-slider": "^0.11.0",
+    "react-native-snackbar": "^1.0.0",
+    "react-native-snap-carousel": "^3.7.5",
+    "react-native-sound": "^0.10.12",
+    "react-native-swiper": "^1.5.14",
+    "react-native-tab-navigator": "^0.3.4",
+    "react-native-tab-view": "^1.3.2",
+    "react-native-touchable-scale": "^2.0.0",
+    "react-native-zoom-image": "^0.1.2",
+    "react-redux": "^6.0.0",
+    "react-swipeable-views-native": "^0.13.2",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-jest": "24.8.0",
+    "babel-preset-react-native": "4.0.1",
+    "jest": "24.8.0",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts"
+    ]
+  }
+}
